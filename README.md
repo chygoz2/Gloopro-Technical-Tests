@@ -10,7 +10,7 @@ For example, there are **4** prisoners and **6** pieces of candy. The prisoners 
 
 ### Function Description
 
-Complete the saveThePrisoner function in the editor below. It should return an integer representing the chair number of the prisoner to warn.
+Complete the **_saveThePrisoner_** function in the file provided. It should return an integer representing the chair number of the prisoner to warn.
 
 saveThePrisoner has the following parameter(s):
 
@@ -47,10 +47,11 @@ In first query, there are **n = 5** prisoners and **m = 2** sweets. Distribution
 In the second query, distribution starts at seat **2** so prisoners in seats **2** and **3**  get sweets. Warn prisoner **3**.
 
 #### Sample Input 1
-
+```
 2  
 7 19 2  
-3 7 3  
+3 7 3
+```  
 #### Sample Output 1
 ```
 6  
@@ -67,24 +68,24 @@ Lily likes to play games with integers. She has created a new game where she det
 
 She decides to apply her game to decision making. She will look at a numbered range of days and will only go to a movie on a beautiful day.
 
-Given a range of numbered days, [__i__...__j__] and a number **k**, determine the number of days in the range that are beautiful. Beautiful numbers are defined as numbers where |__i__ - __reverse(i)__| is evenly divisible by __k__. If a day's value is a beautiful number, it is a beautiful day. Print the number of beautiful days in the range.
+Given a range of numbered days, [_i_..._j_] and a number **k**, determine the number of days in the range that are beautiful. Beautiful numbers are defined as numbers where |_i_ - _reverse(i)_| is evenly divisible by _k_. If a day's value is a beautiful number, it is a beautiful day. Print the number of beautiful days in the range.
 
 ### Function Description
 
-Complete the beautifulDays function in the editor below. It must return the number of beautiful days in the range.
+Complete the **_beautifulDays_** function in the file provided. It must return the number of beautiful days in the range.
 
 beautifulDays has the following parameter(s):
 
-* __i__: the starting day number
-* __j__: the ending day number
-* __k__: the divisor
+* _i_: the starting day number
+* _j_: the ending day number
+* _k_: the divisor
 Input Format
 
-A single line of three space-separated integers describing the respective values of __i__, __j__, and __k__.
+A single line of three space-separated integers describing the respective values of _i_, _j_, and _k_.
 
 ### Output Format
 
-Print the number of beautiful days in the inclusive range between __i__ and __j__.
+Print the number of beautiful days in the inclusive range between _i_ and _j_.
 
 ### Sample Input
 
