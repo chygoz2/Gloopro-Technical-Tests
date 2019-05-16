@@ -25,7 +25,7 @@ class Question1Test extends TestCase {
     $this->assertEquals(6, $result);
   }
 
-  public function testCase()
+  public function testCaseFour()
   {
     $this->question = new Question1();
     $result = $this->question->saveThePrisoner(3, 7, 3);
