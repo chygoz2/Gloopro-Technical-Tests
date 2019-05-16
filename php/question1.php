@@ -4,7 +4,7 @@ class Question1 {
 
   // Complete the saveThePrisoner function below.
   function saveThePrisoner ($n, $m, $s) {
-    return 1;
+    return null;
   }
 }
 
