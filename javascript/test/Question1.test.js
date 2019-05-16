@@ -14,4 +14,16 @@ describe('Question 1', () => {
     assert.equal(result, 3)
     done()
   })
+
+  it ('Can get the correct prisoner to save for test case 3', done => {
+    let result = saveThePrisoner(7, 19, 2)
+    assert.equal(result, 6)
+    done()
+  })
+
+  it ('Can get the correct prisoner to save for test case 4', done => {
+    let result = saveThePrisoner(3, 7, 3)
+    assert.equal(result, 3)
+    done()
+  })
 })

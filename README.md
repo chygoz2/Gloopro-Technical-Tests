@@ -18,50 +18,37 @@ saveThePrisoner has the following parameter(s):
 * m: an integer, the number of sweets
 * s: an integer, the chair number to begin passing out sweets from
 
-### Input Format
 
-The first line contains an integer, _t_, denoting the number of test cases. 
-The next _t_ lines each contain *3* space-separated integers: 
-* _n_: the number of prisoners 
-* _m_: the number of sweets 
-* _s_: the chair number to start passing out treats at
-
-Output Format
-
-For each test case, print the chair number of the prisoner who receives the awful treat on a new line.
-
-#### Sample Input 0
-```
-2  
-5 2 1  
-5 2 2  
-````
-#### Sample Output 0  
-```
-2  
-3  
-```
-#### Explanation 0
-
-In first query, there are **n = 5** prisoners and **m = 2** sweets. Distribution starts at seat number **s = 1** . Prisoners in seats numbered **1** and **2**  get sweets. Warn prisoner **2**. 
-In the second query, distribution starts at seat **2** so prisoners in seats **2** and **3**  get sweets. Warn prisoner **3**.
+The **_saveThePrisoner_** function should return the chair number of the prisoner who receives the awful treat.
 
 #### Sample Input 1
 ```
-2  
-7 19 2  
-3 7 3
-```  
+n = 5 
+m = 2 
+s = 1    
+````
 #### Sample Output 1
 ```
-6  
-3  
+2  
 ```
 #### Explanation 1
 
-In the first test case, there are **n = 7**  prisoners, **m = 19** sweets and they are passed out starting at chair **s = 2**. The candies go all around twice and there are **5**  more candies passed to each prisoner from seat **2** to seat **6**.
+In this query, there are **n = 5** prisoners and **m = 2** sweets. Distribution starts at seat number **s = 1** . Prisoners in seats numbered **1** and **2**  get sweets. Warn prisoner **2**. 
 
-In the second test case, there are **n = 3** prisoners, **m = 7** candies and they are passed out starting at seat **s = 3**. They go around twice, and there is one more to pass out to the prisoner at seat **3**.  
+#### Sample Input 2
+```
+n = 7
+m = 19 
+s = 2 
+```  
+#### Sample Output 2
+```  
+6
+```
+#### Explanation 2
+
+In this query, there are **n = 7**  prisoners, **m = 19** sweets and they are passed out starting at chair **s = 2**. The candies go all around twice and there are **5**  more candies passed to each prisoner from seat **2** to seat **6**.
+
   
 ## Question 2
 Lily likes to play games with integers. She has created a new game where she determines the difference between a number and its reverse. For instance, given the number **12**, its reverse is **21**. Their difference is **9**. The number **120** reversed is **21**, and their difference is **99**.
@@ -78,10 +65,9 @@ beautifulDays has the following parameter(s):
 
 * _i_: the starting day number
 * _j_: the ending day number
-* _k_: the divisor
-Input Format
+* _k_: the divisor  
 
-A single line of three space-separated integers describing the respective values of _i_, _j_, and _k_.
+The **_beautifulDays_** function should return the number of beautiful days in the inclusive range between _i_ and _j_.
 
 ### Output Format
 
@@ -90,7 +76,9 @@ Print the number of beautiful days in the inclusive range between _i_ and _j_.
 ### Sample Input
 
 ```
-20 23 6
+i = 20 
+j = 23 
+k = 6
 ```  
 ### Sample Output
 ```
